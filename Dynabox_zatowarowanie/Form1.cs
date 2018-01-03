@@ -85,7 +85,7 @@ namespace Dynabox_zatowarowanie
                 wiz[address - 1].BackColor = Color.Green;
             }
             label_ilosc.Text = k.GetNumberOfElements().ToString();
-            // od teraz służy do określenia które drzwi zostały zamknięte
+            // od teraz służy do określenia, które drzwi zostały zamknięte
             for (short j = 0; j < 13; j++)
             {
                 drzwi[j].Checked = false;
